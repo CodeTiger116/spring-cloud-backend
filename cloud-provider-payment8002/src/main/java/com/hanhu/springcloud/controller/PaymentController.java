@@ -30,9 +30,11 @@ public class PaymentController {
     @Resource
     private PaymentService paymentService;
 
+
     //服务发现
     @GetMapping(value = "/payment/discovery")
-    public Object discovery() {
+    public Object discovery()
+    {
         List<String> services = discoveryClient.getServices();
         for (String element : services) {
             log.info("*****element: "+element);
@@ -45,8 +47,6 @@ public class PaymentController {
 
         return this.discoveryClient;
     }
-
-
 
     @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment){
