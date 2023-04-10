@@ -1,7 +1,7 @@
-package com.hanhu.sprngcloud.controller;
+package com.hanhu.springcloud.controller;
 
-import com.hanhu.sprngcloud.entities.CommonResult;
-import com.hanhu.sprngcloud.entities.Payment;
+import com.hanhu.springcloud.entities.Payment;
+import com.hanhu.springcloud.entities.CommonResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
