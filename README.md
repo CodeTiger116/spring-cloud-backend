@@ -14,4 +14,13 @@
 ### 10、Eureka自我保护机制
 ### 11、配置zookeeper
 ### 12、Consul配置（略）
+### 13、Ribbon
+#### Ribbon的负载均衡和Rest调用
+#### Ribbon负载规则替换
+#### Ribbon默认负载轮询、手写轮询
+### 14、OpenFeign
+#### OpenFeign服务调用
+#### OpenFeign超时控制
+#### OpenFeign日志增强
+
 

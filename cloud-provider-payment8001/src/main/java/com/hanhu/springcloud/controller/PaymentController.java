@@ -70,5 +70,14 @@ public class PaymentController {
         }
     }
 
+    /**
+     * 手写轮询
+     * @return
+     */
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;//返回服务接口
+    }
+
 
 }
