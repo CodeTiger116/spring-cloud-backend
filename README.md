@@ -22,5 +22,11 @@
 #### OpenFeign服务调用
 #### OpenFeign超时控制
 #### OpenFeign日志增强
-
+### 15、Hystrix
+#### jMeter压测
+#### Hystrix服务降级
+#### Hystrix全局服务降级DefaultProperties
+#### Hystrix通配服务降级FeignFallback
+#### Hystrix服务熔断
+#### Hystrix服务限流
 
