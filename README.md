@@ -29,4 +29,9 @@
 #### Hystrix通配服务降级FeignFallback
 #### Hystrix服务熔断
 #### Hystrix服务限流
+### 16、GateWay
+#### Gateway配置路由的两种方式（yml配置、编码[略]）
+#### GateWay配置动态路由
+#### GateWay常用的Predicate
+#### GateWay的Filter
 
