@@ -1,0 +1,39 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name:  cloud-config-center #注册进Eureka服务器的微服务名
+  cloud:
+    config:
+      server:
+        git:
+          # 使用ssh报错：reject HostKey: github.com
+          #uri: git@github.com:CodeTiger116/springcloud-config.git #GitHub上面的git仓库名字
+          uri: https://github.com/CodeTiger116/springcloud-config.git
+          ####搜索目录
+          search-paths:
+            - springcloud-config
+          skip-ssl-validation: true # 跳过ssl校验
+      ####读取分支
+      label: main
+  #rabbitmq相关配置
+  rabbitmq:
+    host: 43.143.148.254
+    port: 5672
+    username: admin
+    password: 123
+
+#rabbitmq相关配置,暴露bus刷新配置的端点
+management:
+  endpoints: #暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'
+
+
+#服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
