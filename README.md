@@ -34,4 +34,16 @@
 #### GateWay配置动态路由
 #### GateWay常用的Predicate
 #### GateWay的Filter
+### 17、SpringCloud Config分布式配置中心
+#### Config服务端配置与测试
+#### Config客户端配置与测试
+#### Config动态刷新之手动版
+### 18、SpringCloud Bus消息总线
+#### Bus之RabbitMQ环境配置
+#### Bus动态刷新全局广播配置实现
+#### Bus动态刷新定点通知
+### 19、SpringCloud Stream消息驱动
+#### 略
+### 20、SpringCloud Sleuth链路监控
+#### 略
 
