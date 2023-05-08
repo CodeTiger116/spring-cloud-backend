@@ -53,4 +53,16 @@
 #### Nacos Namespace+Group+Data ID
 #### Nacos 集群配置和持久化配置(重...)
 
+### 2、Sentinel
+#### Sentinel流控规则
+#### Sentinel降级规则
+#### Sentinel热点key限流
+#### Sentinel系统规则
+#### Sentinel服务熔断（Ribbon+openFeign+fallback）
+#### Sentinel持久化规则
+
+### 3、Seata处理分布式事务
+
+
+
 
