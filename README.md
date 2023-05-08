@@ -46,4 +46,11 @@
 #### 略
 ### 20、SpringCloud Sleuth链路监控
 #### 略
+### SpringCloud Alibaba
+### 1、Nacos 服务发现、配置管理、服务管理
+#### Nacos服务提供者和消费者
+#### Nacos服务配置中心
+#### Nacos Namespace+Group+Data ID
+#### Nacos 集群配置和持久化配置(重...)
+
 
